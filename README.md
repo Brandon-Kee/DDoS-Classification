@@ -1,0 +1,2 @@
+# DDos Classification
+This project focuses on detecting Distributed Denial-of-Service (DDoS) attacks by working with labeled network traffic data. It includes steps for preprocessing the data, visualizing patterns and anomalies, and training a Random Forest Classifier to identify malicious activity. The goal is to build an effective and interpretable model for distinguishing between normal and attack traffic.
