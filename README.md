@@ -22,3 +22,16 @@ The results of the DDoS classification model demonstrate near-perfect performanc
 ### Confusion Matrix
 <img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/f420b602-0f88-484d-8242-8e4ab446f8e8" />
 
+## Next Steps
+
+- **Experiment with temporal validation**  
+  Simulate real-time detection using sliding windows to evaluate performance on time-based splits.
+
+- **Implement streaming inference**  
+  Deploy the model to process live network traffic for near real-time DDoS detection.
+
+- **Extend to multi-class classification**  
+  Classify specific DDoS attack types rather than just binary benign/attack labeling.
+
+- **Optimize for deployment**  
+  Explore hyperparameter tuning and model compression for faster inference in production environments.
