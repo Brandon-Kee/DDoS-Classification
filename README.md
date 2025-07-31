@@ -4,9 +4,11 @@ This project focuses on detecting Distributed Denial-of-Service (DDoS) attacks b
 ## DDoS Attacks
 A Distributed Denial-of-Service (DDoS) attack is a cyberattack where multiple compromised devices flood a target system, such as a website or server, with excessive traffic to overwhelm its resources and disrupt normal service. These attacks can cause downtime, slow performance, and loss of access for legitimate users. DDoS attacks are often used to extort, distract, or damage organizations by making their online services unavailable.
 
-## Data Preprocessing
+## The Data
+The data for this project was sourced from the [Network Intrusion Dataset](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset) on Kaggle.
 
-- Removed missing values
-- Stripped whitespace from column names
-- Mapped `Label` to binary values (BENIGN → 0, DDoS → 1)
-- Visualized missing values with bar plots
+Data preprocessing included:
+- Removing missing values
+- Stripping whitespace from column names
+- Mapping `Label` to binary values (BENIGN → 0, DDoS → 1)
+- Visualizing missing values with bar plots
