@@ -13,6 +13,9 @@ Data preprocessing included:
 - Mapping `Label` to binary values (BENIGN → 0, DDoS → 1)
 - Visualizing missing values with bar plots
 
+## Model Training
+The **Random Forest model** was used in this project because it is highly effective for **binary classification tasks with many numerical features**, like DDoS detection. Our dataset contained 78 flow-level metrics, and Random Forest can naturally handle **high-dimensional data** without the need for feature scaling or extensive preprocessing. It is also **robust to noise and outliers**, which is critical for network traffic data that can be irregular or bursty. Additionally, Random Forest **captures non-linear relationships** between features, allowing it to distinguish subtle patterns that separate benign flows from DDoS attacks. Another reason for using Random Forest is its ability to **provide feature importance scores**, helping us understand which network characteristics contribute most to detecting attacks. Overall, it was chosen because it offers **high accuracy, strong generalization, and interpretability** with minimal tuning, making it well-suited for this DDoS classification task.
+
 ## Results
 The results of the DDoS classification model demonstrate near-perfect performance, with an overall accuracy of 99.99% and equally strong precision, recall, and F1-scores for both benign and DDoS traffic. The confusion matrix highlights that almost all benign flows were correctly identified as benign, and nearly all DDoS flows were correctly flagged as attacks, with only a handful of misclassifications in each direction. In practical terms, this means the model can reliably detect malicious traffic with minimal false alarms and virtually no missed attacks, making it highly effective for network defense scenarios where both sensitivity and precision are critical.
 
