@@ -12,3 +12,6 @@ Data preprocessing included:
 - Stripping whitespace from column names
 - Mapping `Label` to binary values (BENIGN → 0, DDoS → 1)
 - Visualizing missing values with bar plots
+
+## Results
+The results of the DDoS classification model demonstrate near-perfect performance, with an overall accuracy of 99.99% and equally strong precision, recall, and F1-scores for both benign and DDoS traffic. The confusion matrix highlights that almost all benign flows were correctly identified as benign, and nearly all DDoS flows were correctly flagged as attacks, with only a handful of misclassifications in each direction. In practical terms, this means the model can reliably detect malicious traffic with minimal false alarms and virtually no missed attacks, making it highly effective for network defense scenarios where both sensitivity and precision are critical.
