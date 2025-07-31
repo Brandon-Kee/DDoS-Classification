@@ -8,7 +8,7 @@ A Distributed Denial-of-Service (DDoS) attack is a cyberattack where multiple co
 The data for this project was sourced from the [Network Intrusion Dataset](https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset) on Kaggle.
 
 Data preprocessing included: 
-- Removing missing values
+- Removing missing values 
 - Stripping whitespace from column names
 - Mapping `Label` to binary values (BENIGN → 0, DDoS → 1)
 - Visualizing missing values with bar plots
